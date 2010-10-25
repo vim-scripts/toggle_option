@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3295
+
+This script provides a very small utility to toggle an option or a variable with an unified syntax. This can be useful when writing scripts.
+
+Usage:
+
+:Toggle <my-options>
+
+example
+
+:Toggle paste
+:Toggle paste spell
+:let g:my_variable=0
+:Toggle g:my_variable
